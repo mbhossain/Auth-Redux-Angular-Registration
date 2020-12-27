@@ -6,6 +6,10 @@ import {UserUpdateComponent} from './components/userupdate/user-update.component
 
 const routes: Routes = [
   {
+    path: '',
+    component: LoginComponent
+  },
+  {
     path: 'registration',
     component: RegistrationComponent
   },
